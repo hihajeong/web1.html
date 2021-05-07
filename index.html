@@ -1,30 +1,51 @@
-<!-- title: 웹페이지 제목 -->
-<!-- body: 본문 -->
-<!-- head: 본문 설명 -->
-<!-- html: body, head를 감싼다. -->
-<!-- a: 링크(anchor) -->
-<!-- href: 링크(HyperText Referencr), 
-    target="_blank": 새 창에서 연다.
-    title="": 툴팁으로 내용을 보여준다."-->
-<!-- strong: 굵은 글씨 -->
-<!-- u: 밑줄(underline) -->
-<!-- h1: 제목(heading) -->
-<!-- br: 줄바꿈, 닫는태그X -->
-<!-- p: 줄바꿈, 닫는태그O -->
-<!-- img: 이미지 -->
-<!-- li: 목차(list) -->
-<!-- ul: li의 부모태그(unordered list) -->
-<!-- ol: (ordered list)-->
+<!--
+    <HTML>
+    title: 웹페이지 제목 
+    body: 본문 
+    head: 본문 설명 
+    html: body, head를 감싼다. 
+    a: 링크(anchor) 
+    href: 링크(HyperText Referencr), 
+        target="_blank": 새 창에서 연다.
+        title="": 툴팁으로 내용을 보여준다
+    strong: 굵은 글씨 
+    u: 밑줄(underline) 
+    h1: 제목(heading) 
+    br: 줄바꿈, 닫는태그X 
+    p: 줄바꿈, 닫는태그O 
+    img: 이미지 
+    li: 목차(list) 
+    ul: li의 부모태그(unordered list) 
+    ol: (ordered list)
+-->
+
+<!--
+    <CSS>
+    style: CSS코드를 사용할 것을 의미
+    선택자 순위: id > class > tag  ** id 선택자는 한번씩만 사용가능
+    https://www.w3schools.com/cssref/css_selectors.asp
+-->
 
 <!doctype html> <!-- 웹페이지가 html로 만들어짐을 나타낸다. -->
 <html>
 <head>
-<title> EHJ </title>
+<title> hi_eunpange </title>
 <meta charset="utf-8"> <!-- UTF-8로 열린다. -->
+<style>
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+</style>
+
 </head>
 
 <body>
-    <h1><a href="index.html">은환이랑 하정이</a></h1>
+    <h1><a href="index.html"> hi_eunpange </a></h1>
         <ol>
         <li><a href="1.html">사진관</a></li>
         <li><a href="2.html">더현대</a></li>
@@ -34,7 +55,7 @@
     <h2></h2>
     
     <p style="margin-top: 45px;">
-        <h2> EHJ </h2>
+        <h2> 정보 </h2>
         <strong>2020-11-07~</strong>
         <br><br>
         이은환: ISFJ
